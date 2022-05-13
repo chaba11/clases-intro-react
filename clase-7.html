@@ -11,6 +11,9 @@
       nombre: PropTypes.string.isRequired,
       apellido: PropTypes.string
     }
+    Saludo.defaultProps = {
+      apellido: "Apellido"
+    }
     const element =
     <>
       <Saludo nombre={1} apellido="Chabert" />
